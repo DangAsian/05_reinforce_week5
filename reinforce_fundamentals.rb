@@ -14,8 +14,8 @@ a.each.with_index do |row_value, row_index|
           puts "What is your name?"
           name = gets.chomp
           row_value[seat_index] = name
+          return puts a
           end
       end
     end
   end
-  puts a
